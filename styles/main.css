@@ -56,3 +56,86 @@ nav a:hover {
 #projects {
     margin: 20px;
 }
+
+#habilidades {
+    background-color:#f3f4f6;
+}
+
+#certificados {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #certificados h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  #certificados h3 {
+    margin: 15px 0;
+    color: #444;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  
+  #certificados .platzi,
+  #certificados .freecodecamp {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background-color: #fff;
+  }
+  
+  #certificados .platzi img,
+  #certificados .freecodecamp img {
+    max-width: 100%;
+    max-height: 150px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #certificados .platzi img:hover,
+  #certificados .freecodecamp img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #certificados .platzi,
+  #certificados .freecodecamp {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  #certificados .platzi img,
+  #certificados .freecodecamp img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    #certificados .platzi,
+    #certificados .freecodecamp {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      justify-items: center;
+    }
+  
+    #certificados img {
+      max-height: 200px;
+    }
+  }
+
+#contact {
+    padding-top: 20px;
+    background-color: #f3f4f6;
+}
